@@ -8,7 +8,8 @@ body {
   background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 );
   font-family: 'Vollkorn SC', serif;
-  height: 100vh; }
+  height: 100vh;
+  color: grey; }
   body h1 {
     font-weight: bold;
     text-transform: uppercase;
@@ -16,5 +17,8 @@ body {
     justify-content: center; }
   body p {
     margin: 30px auto; }
+  body .test {
+    display: flex;
+    flex-wrap: wrap; }
 
 /*# sourceMappingURL=style.css.map */

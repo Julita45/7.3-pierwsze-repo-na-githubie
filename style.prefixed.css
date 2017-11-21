@@ -6,13 +6,24 @@ body {
   background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 );
   font-family: 'Vollkorn SC', serif;
-  height: 100vh; }
+  height: 100vh;
+  color: grey; }
   body h1 {
-    font-style: bold;
+    font-weight: bold;
+    text-transform: uppercase;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   body p {
     margin: 30px auto; }
+  body .test {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
 /*# sourceMappingURL=style.prefixed.css.map */

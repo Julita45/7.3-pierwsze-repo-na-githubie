@@ -10,6 +10,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 );
 	font-family: 'Vollkorn SC', serif;
 	height: 100vh;
+	color: grey;
 
 	h1 {
 	font-weight: bold;
@@ -20,5 +21,10 @@ body {
 
 	p {
 	margin: 30px auto;
+	}
+
+	.test {
+	display: flex;
+	flex-wrap: wrap;
 	}
 }

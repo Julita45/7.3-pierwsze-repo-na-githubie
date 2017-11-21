@@ -1,3 +1,5 @@
-autoprefixer-cli -o style.prefixed.css style.css
+autoprefixer-cli -o style.prefixed.css style.css 
+
 node_modules/nu-html-checker/bin/cli -f json *.html
+
 second option node_modules/.bin/nu-html-checker -f json *.html
